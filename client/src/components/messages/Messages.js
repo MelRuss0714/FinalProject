@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import "../Layout/Layout.css";
+
 
 export default class Messages extends Component {
 	constructor(props) {

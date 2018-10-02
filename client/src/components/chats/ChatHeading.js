@@ -1,4 +1,6 @@
 import React from 'react';
+import "../Layout/Layout.css";
+
 //import FAVideo from 'react-icons/lib/fa/video-camera'
 
 

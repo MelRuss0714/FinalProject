@@ -31,7 +31,7 @@ app.get('/about', (req, res) => {
         message: `I am the about route`
     });
 });
-app.get('/community/:email', (req, res) => {
+app.get('/community', (req, res) => {
     res.sendFile(__dirname + '../client/public/index.html');
     user = req.params.email;
 });
